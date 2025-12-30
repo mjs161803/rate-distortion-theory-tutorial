@@ -116,6 +116,17 @@ Press `Ctrl+C` in the terminal where docker-compose is running, or:
 docker-compose down
 ```
 
+## Security Note
+
+⚠️ **For Local Use Only**: This application is configured for ease of use in a local development/educational environment with no authentication. It should **NOT** be deployed to production or exposed to the internet without proper security measures:
+
+- Add authentication tokens
+- Use HTTPS
+- Implement proper access controls
+- Review and harden Docker security settings
+
+For local educational purposes, the current configuration is appropriate and convenient.
+
 ## Technologies Used
 
 - **Python 3.11**: Core programming language
